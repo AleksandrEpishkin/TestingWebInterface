@@ -1,5 +1,6 @@
 package ru.netology;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +13,7 @@ class CallbackTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
@@ -22,7 +23,7 @@ class CallbackTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("http://localhost:9999/");
+        driver.get("http://localhost:7777/");
     }
 
     @Test
@@ -162,11 +163,11 @@ class CallbackTest {
                 " и разрешаю сделать запрос в бюро кредитных историй", text.trim());
     }
 
-
     @AfterEach
     void tearDown() {
         driver.quit();
         driver = null;
     }
+
 
 }
