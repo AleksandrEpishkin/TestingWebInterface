@@ -1,130 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.CallbackTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-07-25T18:51:14" hostname="LAPTOP-FVM838T7" time="13.136">
+<testsuite name="ru.netology.CallbackTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-07-26T11:42:22" hostname="LAPTOP-FVM838T7" time="17.991">
   <properties/>
-  <testcase name="NegativeNameTest()" classname="ru.netology.CallbackTest" time="2.127"/>
-  <testcase name="Positive2NameTest()" classname="ru.netology.CallbackTest" time="1.11"/>
-  <testcase name="NegativePhoneTest()" classname="ru.netology.CallbackTest" time="1.12"/>
-  <testcase name="EmptyPolePhoneTest()" classname="ru.netology.CallbackTest" time="1.201"/>
-  <testcase name="NegativePhoneTest2()" classname="ru.netology.CallbackTest" time="1.12"/>
-  <testcase name="NegativePhoneTest3()" classname="ru.netology.CallbackTest" time="1.094"/>
-  <testcase name="PositiveTest()" classname="ru.netology.CallbackTest" time="1.063"/>
-  <testcase name="EmptyPoleNameTest()" classname="ru.netology.CallbackTest" time="1.121"/>
-  <testcase name="CheckBoxNegativeTest()" classname="ru.netology.CallbackTest" time="1.029"/>
-  <testcase name="NegativeNameTest2()" classname="ru.netology.CallbackTest" time="1.106"/>
-  <testcase name="NegativeNameTest3()" classname="ru.netology.CallbackTest" time="1.041"/>
+  <testcase name="NegativeNameTest()" classname="ru.netology.CallbackTest" time="3.379"/>
+  <testcase name="Positive2NameTest()" classname="ru.netology.CallbackTest" time="1.382"/>
+  <testcase name="NegativePhoneTest()" classname="ru.netology.CallbackTest" time="1.51"/>
+  <testcase name="EmptyPolePhoneTest()" classname="ru.netology.CallbackTest" time="1.472"/>
+  <testcase name="NegativePhoneTest2()" classname="ru.netology.CallbackTest" time="1.468"/>
+  <testcase name="NegativePhoneTest3()" classname="ru.netology.CallbackTest" time="1.424"/>
+  <testcase name="PositiveTest()" classname="ru.netology.CallbackTest" time="1.411"/>
+  <testcase name="EmptyPoleNameTest()" classname="ru.netology.CallbackTest" time="1.488"/>
+  <testcase name="CheckBoxNegativeTest()" classname="ru.netology.CallbackTest" time="1.423"/>
+  <testcase name="NegativeNameTest2()" classname="ru.netology.CallbackTest" time="1.582"/>
+  <testcase name="NegativeNameTest3()" classname="ru.netology.CallbackTest" time="1.444"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 56233
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 62570
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 65040
+июл. 26, 2022 2:42:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 60750
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 53611
+июл. 26, 2022 2:42:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 59830
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 64849
+июл. 26, 2022 2:42:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 65519
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 64812
+июл. 26, 2022 2:42:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 56061
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52599
+июл. 26, 2022 2:42:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 58581
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 50896
+июл. 26, 2022 2:42:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 50375
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 58431
+июл. 26, 2022 2:42:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52464
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 58401
+июл. 26, 2022 2:42:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52805
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 62065
+июл. 26, 2022 2:42:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 61229
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 56045
+июл. 26, 2022 2:42:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 54993
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 25, 2022 9:51:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 26, 2022 2:42:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-июл. 25, 2022 9:51:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-июл. 25, 2022 9:51:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 102
+июл. 26, 2022 2:42:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
 ]]></system-err>
 </testsuite>

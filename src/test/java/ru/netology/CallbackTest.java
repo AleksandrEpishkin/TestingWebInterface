@@ -13,7 +13,8 @@ class CallbackTest {
 
     @BeforeAll
     static void setUpAll() {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver","driver/win/chromedriver.exe");
     }
 
     @BeforeEach
@@ -23,7 +24,7 @@ class CallbackTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("http://localhost:7777/");
+        driver.get("http://localhost:9999/");
     }
 
     @Test
